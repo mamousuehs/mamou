@@ -134,3 +134,43 @@ footer p {
     color: #86868b;
     text-align: center;
 }
+
+.profile-pic {
+    width: 240px;       /* 设置固定宽度 */
+    height: 240px;      /* 设置固定高度 */
+    border-radius: 50%; /* 关键：设置为50%使其变成一个完美的圆形 */
+    object-fit: cover;  /* 确保图片不变形，而是裁剪填充 */
+    display: block;       /* 让图片成为块级元素 */
+    margin: 0 auto 20px auto; /* 居中显示，并和下方的h1保持20px间距 */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 添加一点微妙的阴影 */
+}
+.icon {
+    width: 32px;
+    height: 32px;
+    stroke: #0071e3; /* 设置图标的线条颜色为苹果蓝 */
+    margin-bottom: 10px; /* 和下方的h3保持间距 */
+}
+
+
+.card h3 {
+    
+    display: flex;
+    align-items: center; /* 垂直居中 */
+}
+.card .icon {
+    margin-bottom: 0; /* 重置间距 */
+    margin-right: 10px; /* 在图标和文字间添加右间距 */
+}
+
+
+.canvas-demo {
+    text-align: center; 
+}
+
+
+
+#nankai-canvas { 
+    background-color: #f0f0f5; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
